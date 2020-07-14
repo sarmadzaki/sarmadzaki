@@ -1,4 +1,4 @@
-### Hi there, It's Sarmad Here  👋
+### Hey, It's Sarmad Here  👋
 
 I am a self taught Software Engineer who has 3+ years of experience in developing Web and Mobile apps using JavaScript frameworks and libraries. Passionate about programming and algorithms to make life easier with code and cofee 😄. It’s all about obsession to love developing Apps and learn incredible cutting-edge Technologies. 
 
