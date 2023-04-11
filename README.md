@@ -7,3 +7,5 @@ I am a self taught Software Engineer having 4+ years of experience in developing
 - 💬 Ask me about JavaScript and its frameworks and github, git as well...
 - 📫 How to reach me: [Facebook](https://facebook.com/sir.mad) , [LinkedIn](https://linkedin.com/in/sarmadzaki) , [Instagram](https://instagram.com/isarmadzaki) , [Resume](https://sarmadzaki.github.io/sarmadzaki/)
 - ⚡ Other Skills: I've been doing photography from past 1 year of Random potraits and objects. checkout my instagram [Instagram](https://instagram.com/isarmadzaki)
+
+[![Sarmad's GitHub stats](https://github-readme-stats.vercel.app/api?username=sarmadzaki)](https://github.com/sarmadzaki/github-readme-stats)
