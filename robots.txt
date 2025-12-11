@@ -1,0 +1,12 @@
+# Robots.txt for Sarmad Zaki Portfolio
+# https://sarmadzaki.github.io/sarmadzaki/
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://sarmadzaki.github.io/sarmadzaki/sitemap.xml
+
+# Crawl-delay (optional, be nice to servers)
+Crawl-delay: 10
+
