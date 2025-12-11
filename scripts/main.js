@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
     initMobileMenu();
     initSmoothScroll();
     initTypewriter();
+    initActiveNavLinks();
+    initFormSubmission();
 });
 
 /**
@@ -97,8 +99,6 @@ function initScrollAnimations() {
  */
 function initMobileMenu() {
     const menuToggle = document.querySelector('.mobile-menu-toggle');
-    const navLinks = document.querySelector('.nav-links');
-    const navActions = document.querySelector('.nav-actions');
 
     if (!menuToggle) return;
 
@@ -258,9 +258,6 @@ function initTypewriter() {
     const element = document.querySelector('.hero-subtitle');
     if (!element) return;
 
-    const text = element.textContent;
-    const originalText = text;
-    
     // Only run typewriter on larger screens
     if (window.innerWidth < 768) return;
 
@@ -316,22 +313,25 @@ function initParallax() {
 /**
  * Form submission handling
  */
-document.addEventListener('DOMContentLoaded', () => {
+function initFormSubmission() {
     const form = document.querySelector('.contact-form');
     if (!form) return;
 
-    form.addEventListener('submit', async (e) => {
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        
         const submitBtn = form.querySelector('button[type="submit"]');
-        const originalText = submitBtn.innerHTML;
 
         // Visual feedback
         submitBtn.innerHTML = '<span>Sending...</span><i class="fas fa-spinner fa-spin"></i>';
         submitBtn.disabled = true;
 
-        // Let form submit naturally to Formspree
-        // The page will redirect after submission
+        // Brief delay to show visual feedback, then submit
+        setTimeout(() => {
+            form.submit();
+        }, 300);
     });
-});
+}
 
 /**
  * Add active state to nav links based on scroll position
@@ -361,9 +361,6 @@ function initActiveNavLinks() {
 
     sections.forEach(section => observer.observe(section));
 }
-
-// Initialize active nav links
-document.addEventListener('DOMContentLoaded', initActiveNavLinks);
 
 /**
  * Add loading animation
