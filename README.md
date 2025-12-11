@@ -1,6 +1,6 @@
 ### Hey, It's Sarmad Here  👋
 
-I am a self taught Software Engineer having 4+ years of experience in developing Web and Mobile apps using JavaScript frameworks and libraries. Passionate about programming and algorithms to make life easier with code and cofee 😄. It’s all about obsession to love developing Apps and learn incredible cutting-edge Technologies. 
+I am a self taught Software Engineer having 7+ years of experience in developing Web and Mobile apps using JavaScript frameworks and libraries. Passionate about programming and algorithms to make life easier with code and cofee 😄. It’s all about obsession to love developing Apps and learn incredible cutting-edge Technologies. 
 
 - 🔭 I’m currently working as a Senior Software Engineer at [Startup Stealth Mode (Remote, Canada) ]
 - 🌱 I’m currently learning AWS and Microservices with Nodejs and Java/Spring/Kotlin.
